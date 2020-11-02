@@ -1,0 +1,200 @@
+.fixed-header{
+  top: 0; /* Position the navbar at the top of the page */
+  left: 0; /* Position the navbar at very left of the page */
+  background: black;
+  position: fixed;
+  overflow: hidden;
+  width: 100%; /* Full width */
+}
+.logo{
+  top: 0; /* Position the navbar at the top of the page */
+  left: 50%;
+  height: 80px;
+
+}
+.navbar {
+  top: 80px; /* Position the navbar at the top of the page */
+  left: 0; /* Position the navbar at very left of the page */
+  position: fixed;
+  background: rgb(32, 32, 32);
+  overflow: hidden;
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: black;
+  color: white;
+  text-decoration: underline;
+}
+/* Main content */
+.main {
+margin-bottom: 30px; /* Add a bottom margin to avoid content overlay */
+}
+/* Main content */
+.main {
+margin-top: 30px; /* Add a top margin to avoid content overlay */
+
+}
+.container-image{
+    float: left;
+    width: 24%;
+    padding: 5px;
+    margin-top: 5%;
+    position: relative; 
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .4s ease;
+    backface-visibility: hidden;
+    height: 300px;
+    object-fit: cover; 
+    border: 15px solid whitesmoke;
+
+  }
+  
+
+  .container-image:hover .image {
+    opacity: 0.75;
+
+  }
+  
+  .container-image:hover .text {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: rgb(185, 139, 185);
+    color: white;
+    font-size: 12px;
+    padding: 16px 32px;
+    opacity: 0;
+    position: relative;
+    border: 5px;
+    border-color: aqua;
+  }
+
+ /* HEADER*/ 
+ .fixed-header {
+    position: fixed;
+    background: black;
+    border: 5px;
+    opacity: 90%;
+    padding: 10px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+  }
+  .fixed-header{
+    top:0
+  }
+
+/* search box color and background*/
+.search-box{
+  top:4px;
+  position: relative;
+  float: right;
+  background: grey;
+  color: grey;
+  height: 40px;
+}
+.search-box:hover > .search-txt{
+  width: 240px;
+  padding: 0 6px;
+}
+
+.search-box:hover > .search-btn{
+  background: rgba(196, 142, 196, 0.795);
+}
+/* adjusting the Font awesome image */
+.search-btn{
+  top:0
+  color: black;
+  float: right;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+/* changes text color*/
+.search-txt{
+  border: none;
+  background: none;
+  outline: none;
+  float:left;
+  padding: 0;
+  font-size: 18px;
+  color: white;
+  font-family: Basetica Medium;
+  transition: 0.4s;
+  line-height: 40px;
+}
+.fixed-header{
+  top: 0; /* Position the navbar at the top of the page */
+  left: 0; /* Position the navbar at very left of the page */
+  background: black;
+  position: fixed;
+  overflow: hidden;
+  width: 100%; /* Full width */
+}
+.logo{
+  top: 0; /* Position the navbar at the top of the page */
+  left: 50%;
+  height: 80px;
+
+}
+.navbar {
+  top: 80px; /* Position the navbar at the top of the page */
+  left: 0; /* Position the navbar at very left of the page */
+  position: fixed;
+  background: rgb(32, 32, 32);
+  overflow: hidden;
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: black;
+  color: white;
+  text-decoration: underline;
+}
+/* Main content */
+.main {
+margin-bottom: 30px; /* Add a bottom margin to avoid content overlay */
+margin-top: 30px; /* Add a top margin to avoid content overlay */
+
+}
